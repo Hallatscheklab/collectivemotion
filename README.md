@@ -1,4 +1,4 @@
-Data, codes, and analysis for Kayser et al Nature Eco Evo (2018).
+Data, codes, and analysis scripts for Kayser et al Nature Eco Evo (2018).
 
 This repository has X directories:
 

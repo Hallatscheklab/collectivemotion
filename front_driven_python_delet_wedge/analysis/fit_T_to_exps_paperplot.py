@@ -13,7 +13,7 @@ maxw=330.
 
 lfA=[]
 wfA=[]
-f=open('../data/bound_L600.0_D2.5_s-0.06_diff0.0_seed1.dat','r')
+f=open('../data/bound_L600.0_T2.5_s-0.06_diff0.0_seed1.dat','r')
 for line in f.readlines():
     linesplit=line.split()
     lfA.append((d*float(linesplit[3])+d*float(linesplit[1]))/2.)
@@ -21,7 +21,7 @@ for line in f.readlines():
 
 lfB=[]
 wfB=[]
-f=open('../data/bound_L600.0_D3.0_s-0.06_diff0.0_seed1.dat','r')
+f=open('../data/bound_L600.0_T3.0_s-0.06_diff0.0_seed1.dat','r')
 for line in f.readlines():
     linesplit=line.split()
     lfB.append((d*float(linesplit[3])+d*float(linesplit[1]))/2.)
@@ -29,7 +29,7 @@ for line in f.readlines():
 
 lfC=[]
 wfC=[]
-f=open('../data/bound_L600.0_D4.0_s-0.06_diff0.0_seed1.dat','r')
+f=open('../data/bound_L600.0_T4.0_s-0.06_diff0.0_seed1.dat','r')
 for line in f.readlines():
     linesplit=line.split()
     lfC.append((d*float(linesplit[3])+d*float(linesplit[1]))/2.)
@@ -37,7 +37,7 @@ for line in f.readlines():
 
 lfD=[]
 wfD=[]
-f=open('../data/bound_L600.0_D5.0_s-0.06_diff0.0_seed1.dat','r')
+f=open('../data/bound_L600.0_T5.0_s-0.06_diff0.0_seed1.dat','r')
 for line in f.readlines():
     linesplit=line.split()
     lfD.append((d*float(linesplit[3])+d*float(linesplit[1]))/2.)
@@ -45,7 +45,7 @@ for line in f.readlines():
 
 lfE=[]
 wfE=[]
-f=open('../data/bound_L600.0_D6.0_s-0.06_diff0.0_seed1.dat','r')
+f=open('../data/bound_L600.0_T6.0_s-0.06_diff0.0_seed1.dat','r')
 for line in f.readlines():
     linesplit=line.split()
     lfE.append((d*float(linesplit[3])+d*float(linesplit[1]))/2.)
@@ -53,7 +53,7 @@ for line in f.readlines():
 
 lfF=[]
 wfF=[]
-f=open('../data/bound_L600.0_D7.0_s-0.06_diff0.0_seed1.dat','r')
+f=open('../data/bound_L600.0_T7.0_s-0.06_diff0.0_seed1.dat','r')
 for line in f.readlines():
     linesplit=line.split()
     lfF.append((d*float(linesplit[3])+d*float(linesplit[1]))/2.)
@@ -61,7 +61,7 @@ for line in f.readlines():
 
 lfG=[]
 wfG=[]
-f=open('../data/bound_L600.0_D8.0_s-0.06_diff0.0_seed1.dat','r')
+f=open('../data/bound_L600.0_T8.0_s-0.06_diff0.0_seed1.dat','r')
 for line in f.readlines():
     linesplit=line.split()
     lfG.append((d*float(linesplit[3])+d*float(linesplit[1]))/2.)
@@ -69,7 +69,7 @@ for line in f.readlines():
 
 lfH=[]
 wfH=[]
-f=open('../data/bound_L600.0_D9.0_s-0.06_diff0.0_seed1.dat','r')
+f=open('../data/bound_L600.0_T9.0_s-0.06_diff0.0_seed1.dat','r')
 for line in f.readlines():
     linesplit=line.split()
     lfH.append((d*float(linesplit[3])+d*float(linesplit[1]))/2.)

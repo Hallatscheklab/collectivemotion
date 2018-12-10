@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # Set directories
-outdir=~/collectivemotion_repo/cell_based_radial_budding/data/
-rundir=~/collectivemotion_repo/cell_based_radial_budding/codes/
+outdir=../data
+#~/collectivemotion_repo/cell_based_radial_budding/data
+rundir=../codes
+#~/collectivemotion_repo/cell_based_radial_budding/codes
 
 # geometric parameters
 ar1=1.01
@@ -35,7 +37,7 @@ desync=0.4
 seed=-1
 
 # output files
-suffix=radial_layer${layerdepth}_desync${desync}_b${b}_seed${seed}_axial.dat
+suffix=radial_layer${layerdepth}_desync${desync}_b${b}_seed${seed}_axial_example.dat
 prodfile=prod_$suffix
 restfile=restart_$suffix
 radfile=radius_$suffix

@@ -87,6 +87,8 @@
       read(*,*) movie
       read(*,*) restart
 
+      write(*,*) "file1=", file1
+
       ! distances of propagation/boundary layer from front
       propdist=layerdepth+propdepth
       bounddist=layerdepth+propdepth+bounddepth
